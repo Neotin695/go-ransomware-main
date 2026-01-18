@@ -1,0 +1,24 @@
+ENCRYPTION KEY FOR FLUTTER PROJECT
+========================================
+
+ENCRYPTION KEY (Save this!):
+YnNDKqpzUIy9Jpo1VmNXnCeGGofUxLrbkGmlCb7lack=
+
+PASSWORD (Share with client):
+Neo695@
+
+ENCRYPTION DETAILS:
+- Total files: 1
+- Successfully encrypted: 1
+- Failed: 0
+
+INSTRUCTIONS:
+1. KEEP THIS FILE SAFE - DO NOT SHARE WITH CLIENT!
+2. Share the password with client: Neo695@
+3. Use decryptor.py to decrypt files
+
+DECRYPTION:
+1. Place decryptor.py in project folder
+2. Run: python decryptor.py
+3. Enter the encryption key above
+========================================
