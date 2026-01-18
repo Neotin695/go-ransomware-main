@@ -7,7 +7,6 @@ A concise description of what the project does and its core features.
 ### Prerequisites
 
 List the software or environments required to run the project:
-*   [e.g., Node.js v14+]
 *   [e.g., Python 3.8+]
 
 ### Installation
